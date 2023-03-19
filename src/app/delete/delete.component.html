@@ -1,0 +1,11 @@
+<div mat-dialog-title>
+  Employee Form
+</div>
+<div mat-calendar-content>
+  <h3 style="margin: auto;">Are you sure want to delete?</h3>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-raised-button (click)="onConfirmDelete(id)" color="primary">Confirm</button>
+  <button mat-raised-button [mat-dialog-close]="true">Cancel</button>
+</div>
